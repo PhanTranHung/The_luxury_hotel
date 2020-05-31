@@ -588,3 +588,174 @@ h1 {
     transition-duration: 2s;
     transition-timing-function: ease;
 }
+
+
+/* messengerIcon chat*/
+
+._j68 {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1pt 12pt rgba(0, 0, 0, .15);
+    display: flex;
+    flex-direction: column;
+    font-family: SF Pro Text, Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+    height: 27%;
+    position: absolute;
+    width: 380px;
+    bottom: 90px;
+    right: 1px;
+}
+
+._j68 .promptHeaderContainer {
+    border-bottom: rgba(0, 0, 0, .03);
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 -5px 20px 1px rgba(0, 0, 0, .03) inset;
+    display: inline-block;
+    padding: 12px 0;
+    position: relative;
+}
+
+._j68 .promptHeaderContainer .promptHeaderCloseButtonContainer {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+._2t-5 {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 18pt;
+    justify-content: center;
+    outline: none;
+    width: 18pt;
+}
+
+._j68 .profilePictureContainer {
+    bottom: 18px;
+    float: left;
+    height: 28px;
+    padding-left: 14px;
+    padding-right: 10px;
+    position: absolute;
+    width: 28px;
+}
+
+._j68 .promptHeaderContainer .profilePicture {
+    border: .5pt solid rgba(0, 0, 0, .10);
+    border-radius: 50%;
+    height: 20pt;
+    width: 20pt;
+}
+
+._j68 .promptHeaderAndBubbleContainer {
+    float: left;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+._j68 .promptHeaderAndBubbleContainer .promptHeaderText {
+    color: rgba(0, 0, 0, .40);
+    font-size: 8pt;
+    margin-bottom: 4px;
+    margin-left: 12px;
+    max-width: 260px;
+}
+
+._4ik5._4ik4 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    float: none;
+}
+
+._4ik4 {
+    overflow: hidden;
+    white-space: normal;
+}
+
+._j68 .promptHeaderAndBubbleContainer .promptTextBubble {
+    background-color: #f1f0f0;
+    border-radius: 1.3em;
+    color: rgba(0, 0, 0, 1);
+    display: inline-block;
+    font-size: 11pt;
+    max-width: 260px;
+    padding: 8px 12px;
+    text-align: left;
+    width: fit-content;
+    word-wrap: break-word;
+}
+
+._j68 .promptFooterContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 12px;
+    width: 336px;
+}
+
+._j68 .promptFooterContainer .promptButton {
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: 11pt;
+    justify-content: center;
+    max-width: 336px;
+    min-height: 20px;
+    min-width: 215px;
+    outline: none;
+    padding: 8px 30px;
+}
+
+._4bqf {
+    cursor: pointer;
+    transition: opacity .2s;
+}
+
+._j68 .promptFooterContainer .promptButton .messengerIcon {
+    margin-right: 6px;
+}
+
+i.img {
+    -ms-high-contrast-adjust: none;
+}
+
+.icon-messenger {
+    height: 20px;
+    width: 20px;
+}
+
+._j68 .promptFooterContainer .subButtonText {
+    color: rgba(0, 0, 0, .40);
+    line-height: 20px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.subButtonText {
+    font-size: 11px;
+}
+
+.chat-popup {
+    display: none;
+    z-index: 9;
+    /* position: fixed; */
+}
+
+.open-button {
+    position: fixed;
+    bottom: 14px;
+    right: 28px;
+}
+
+.fix {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    width: 400px;
+    height: 100%;
+    z-index: 100;
+}
