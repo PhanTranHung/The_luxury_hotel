@@ -23,8 +23,23 @@ h4 {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    height: 100%;
     width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.flexbox-container {
+    height: 100%;
+}
+
+.zoom {}
+
+.zoom-out {
+    height: 410px;
+}
+
+.zoom-in {
+    height: 90%;
+    z-index: 10;
 }
 
 .flexbox {
@@ -34,8 +49,8 @@ h4 {
     height: 100%;
     overflow: hidden;
     cursor: pointer;
-    -webkit-transition: all 1.0s;
-    transition: all 1.0s;
+    /* -webkit-transition: all 1.0s;
+    transition: all 1.0s; */
 }
 
 .flexbox.last-viewed .btn-close:after {
@@ -85,6 +100,9 @@ h4 {
 
 .flexbox.active {
     cursor: default;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .flexbox.active .overlay {
@@ -182,8 +200,8 @@ h4 {
     -webkit-box-flex: 0;
     flex: 0;
     cursor: default;
-    -webkit-transition-delay: 0.5s;
-    transition-delay: 0.5s;
+    /* -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s; */
 }
 
 .flexbox.anim-out .image {
