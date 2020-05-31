@@ -18,13 +18,12 @@
 
 html,
 body {
-    font-size: 62.5%;
     height: 100%;
     /* overflow: hidden; */
 }
 
 body {
-    background: white;
+    background: #f9f6f1;
 }
 
 svg {
@@ -38,6 +37,7 @@ svg {
     margin: auto;
     user-select: none;
     cursor: all-scroll;
+    font-size: 62.5%;
 }
 
 .slider-control {
@@ -156,7 +156,7 @@ svg {
 
 .slide:nth-child(1) .slide__bg {
     left: 0;
-    background-image: url("/images/123.jpg");
+    background-image: url("/images/restaurant.jpg");
 }
 
 .slide:nth-child(1) .slide__overlay-path {
@@ -175,7 +175,7 @@ svg {
 
 .slide:nth-child(2) .slide__bg {
     left: -50%;
-    background-image: url("/images/123.jpg");
+    background-image: url("/images/spa.jpg");
 }
 
 .slide:nth-child(2) .slide__overlay-path {
@@ -194,7 +194,7 @@ svg {
 
 .slide:nth-child(3) .slide__bg {
     left: -100%;
-    background-image: url("/images/1.jpg");
+    background-image: url("/images/cofe-bar.jpg");
 }
 
 .slide:nth-child(3) .slide__overlay-path {
@@ -235,6 +235,7 @@ svg {
 }
 
 .slide__overlay {
+    width: 82%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -259,8 +260,8 @@ svg {
 .slide__text {
     position: absolute;
     width: 25%;
-    bottom: 15%;
-    left: 12%;
+    bottom: 7%;
+    left: 8%;
     color: #fff;
     transition: transform 0.5s 0.8s, opacity 0.5s 0.8s;
     will-change: transform, opacity;
@@ -283,7 +284,7 @@ svg {
 
 .slide__text-heading {
     font-family: "Polar", Helvetica, Arial, sans-serif;
-    font-size: 5rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
 }
 
@@ -296,7 +297,7 @@ svg {
 
 .slide__text-desc {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin-bottom: 1.5rem;
 }
 
