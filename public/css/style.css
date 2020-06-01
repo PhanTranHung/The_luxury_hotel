@@ -469,7 +469,6 @@ footer p a.name {
 [class^="icon-"],
 [class*=" icon-"] {
     font-family: 'icomoon';
-    speak: none;
     font-variant: normal;
     font-weight: normal;
     text-transform: none;
@@ -599,10 +598,9 @@ h1 {
     display: flex;
     flex-direction: column;
     font-family: SF Pro Text, Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
-    height: 27%;
     position: absolute;
-    width: 380px;
-    bottom: 90px;
+    width: 345px;
+    bottom: 76px;
     right: 1px;
 }
 
@@ -653,7 +651,7 @@ h1 {
 ._j68 .promptHeaderAndBubbleContainer {
     float: left;
     margin-left: 52px;
-    margin-right: 52px;
+    margin-right: 106px;
 }
 
 ._j68 .promptHeaderAndBubbleContainer .promptHeaderText {
@@ -690,15 +688,14 @@ h1 {
 
 ._j68 .promptFooterContainer {
     align-items: center;
-    display: flex;
+    margin: auto;
     flex-direction: column;
     overflow: auto;
-    padding: 12px;
-    width: 336px;
+    padding: 30px;
 }
 
 ._j68 .promptFooterContainer .promptButton {
-    border-radius: 10px;
+    border-radius: 14px;
     color: #fff;
     display: flex;
     font-size: 11pt;
@@ -740,6 +737,8 @@ i.img {
 }
 
 .chat-popup {
+    width: 350px;
+    height: 100%;
     display: none;
     z-index: 9;
     /* position: fixed; */
@@ -748,14 +747,14 @@ i.img {
 .open-button {
     position: fixed;
     bottom: 14px;
-    right: 28px;
+    right: 14px;
 }
 
 .fix {
     position: fixed;
     bottom: 10px;
-    right: 30px;
-    width: 400px;
-    height: 100%;
+    right: 10px;
+    width: 345px;
+    height: 30%;
     z-index: 100;
 }
