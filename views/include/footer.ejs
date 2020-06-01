@@ -21,7 +21,7 @@
             <div class="subButtonText">Chat with Luxury Hotel in Messenger</div>
         </div>
     </div>
-    <div class="open-button" onclick="openForm()" tabindex="0" role="button" style="cursor: pointer; outline: none;">
+    <div class="open-button animated fadeInRight" onclick="openForm()" tabindex="0" role="button" style="cursor: pointer; outline: none;">
         <svg width="60px" height="60px" viewBox="0 0 60 60">
             <svg x="0" y="0" width="60px" height="60px">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -48,13 +48,16 @@
         var x = document.getElementById("myForm");
         if (x.style.display === 'block') {
             x.style.display = 'none';
+            x.classList.add("animated")
+            x.classList.add("fadeInRight")
         } else {
             x.style.display = 'block';
         }
     }
 
     function closeForm() {
-        document.getElementById("myForm").style.display = "none";
+        var x = document.getElementById("myForm");
+        x.style.display = "none"
     }
 </script>
 
