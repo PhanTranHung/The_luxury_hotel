@@ -740,7 +740,6 @@ i.img {
 .chat-popup {
     width: 350px;
     height: 100%;
-    display: none;
     z-index: 9;
     /* position: fixed; */
 }

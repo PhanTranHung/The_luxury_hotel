@@ -1,19 +1,15 @@
 <section class="menu_footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <div class="scroll-top">
-                    <a href="#scroll-topl" class="text-center" title="Lên Đầu Trang">
-                        <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
-                    </a>
-                </div>
+            <div class="col-sm-12" style="z-index: 999999;">
+                <div style="display: none;" id="scroll-to-top" class="application scroll-to-top is-active" data-role="scroll-to-top"></div>
                 <strong>
                 <a href="" title="">
                     <div class="logo_border">
                         <img class="logo" src="images/logo_luxury.png" />
                     </div>
                 </a>
-            </strong>
+                </strong>
                 <nav class="f_menu">
                     <ul class="menu_left">
                         <li>
@@ -49,3 +45,18 @@
         </div>
     </div>
 </section>
+<script>
+    var mybutton = document.getElementById("scroll-to-top");
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            mybutton.style.display = "block";
+            mybutton.classList.add('animated', 'fadeInUp');
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+</script>
