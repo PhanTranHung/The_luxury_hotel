@@ -157,6 +157,7 @@ h4 {
 }
 
 .flexbox.active .content .emblem {
+    top: 50px;
     opacity: 0.8;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
@@ -290,7 +291,7 @@ h4 {
 .flexbox .content .title {
     position: absolute;
     top: -10px;
-    height: 65px;
+    /* height: 65px; */
     width: 100%;
     box-sizing: border-box;
     font-size: 3em;
@@ -318,11 +319,11 @@ h4 {
 
 .flexbox .content .title:before {
     position: absolute;
-    bottom: 15px;
+    bottom: 0px;
     display: block;
     content: "";
     height: 2px;
-    width: 85%;
+    width: 100%;
     background: white;
     box-shadow: 0 2px 6px #2f2f2f;
     -webkit-transform-origin: left center;

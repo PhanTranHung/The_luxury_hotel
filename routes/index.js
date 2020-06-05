@@ -23,6 +23,11 @@ router.get('/products', function(req, res, next) {
     res.render('products', { title: title });
 });
 
+/* GET gallery page. */
+router.get('/gallery', function(req, res, next) {
+    res.render('gallery', { title: title });
+});
+
 
 
 module.exports = router;

@@ -342,3 +342,14 @@ svg {
 .slide__text-link:hover:before {
     transform: rotateX(0);
 }
+
+.emblem-frame {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.emblem-frame img {
+    width: 50px;
+}
