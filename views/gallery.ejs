@@ -2,121 +2,155 @@
 <html>
 
 <head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="css_/gallery.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700" type="text/css">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
 </head>
 
 <body>
 
+    <!-- Appicaion -->
+    <div class="application" data-role="root" style="min-height: 0; padding-top: 0;">
+        <!-- Preloader start-->
+        <section class="preloader" data-role="preloader" style="visibility: hidden; opacity: 0;">
+            <div class="preloader__start" data-role="preloader-start">
+                <div class="img">
+                    <!-- <img src="" /> -->
+                </div>
+            </div>
+        </section>
+        <!-- Preloader end-->
+        <!-- Header start-->
+        <%- include('include/header') %>
+            <!-- Header end-->
+    </div>
+
+
     <div class="w">
         <div class="ts">
             <input type="radio" id="c1" name="ts" checked="checked" />
-            <label class="t" for="c1"><img src="img_/1.jpg" /></label>
+            <label class="t" for="c1"><img src="/img/1.jpg" /></label>
             <input type="radio" id="c2" name="ts" />
-            <label class="t" for="c2"><img src="img_/24.jpg" /></label>
+            <label class="t" for="c2"><img src="/img/24.jpg" /></label>
             <input type="radio" id="c3" name="ts" />
-            <label class="t" for="c3"><img src="img_/3.jpg" /></label>
+            <label class="t" for="c3"><img src="/img/3.jpg" /></label>
             <input type="radio" id="c4" name="ts" />
-            <label class="t" for="c4"><img src="img_/10.jpg" /></label>
+            <label class="t" for="c4"><img src="/img/10.jpg" /></label>
             <input type="radio" id="c5" name="ts" />
-            <label class="t" for="c5"><img src="img_/21.jpg" /></label>
+            <label class="t" for="c5"><img src="/img/21.jpg" /></label>
         </div>
     </div>
-    <div class="container">
+    <div class="container-full">
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/8.jpg">
+            <img style="height: 100%; width: 100%" src="/img/8.jpg">
             <span>Phòng đơn</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/6.jpg">
+            <img style="height: 100%; width: 100%" src="/img/6.jpg">
             <span>Phòng đôi</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/5.jpg">
+            <img style="height: 100%; width: 100%" src="/img/5.jpg">
             <span>Dùng bữa</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/21.jpg">
+            <img style="height: 100%; width: 100%" src="/img/21.jpg">
             <span>Hồ bơi</span>
         </div>
     </div>
-    <div class="container">
+    <div class="container-full">
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/20.jpg">
+            <img style="height: 100%; width: 100%" src="/img/20.jpg">
             <span>Phòng đơn</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/11.jpg">
+            <img style="height: 100%; width: 100%" src="/img/11.jpg">
             <span>Phòng đôi</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/19.jpg">
+            <img style="height: 100%; width: 100%" src="/img/19.jpg">
             <span>Dùng bữa</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/22.jpg">
+            <img style="height: 100%; width: 100%" src="/img/22.jpg">
             <span>Hồ bơi</span>
         </div>
     </div>
-    <div class="container">
+    <div class="container-full">
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/30.jpg">
+            <img style="height: 100%; width: 100%" src="/img/30.jpg">
             <span>Phòng đơn</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/31.jpg">
+            <img style="height: 100%; width: 100%" src="/img/31.jpg">
             <span>Phòng đôi</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/32.jpg">
+            <img style="height: 100%; width: 100%" src="/img/32.jpg">
             <span>Dùng bữa</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/33.jpg">
+            <img style="height: 100%; width: 100%" src="/img/33.jpg">
             <span>Hồ bơi</span>
         </div>
     </div>
-    <div class="container">
+    <div class="container-full">
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/20.jpg">
+            <img style="height: 100%; width: 100%" src="/img/20.jpg">
             <span>Phòng đơn</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/11.jpg">
+            <img style="height: 100%; width: 100%" src="/img/11.jpg">
             <span>Phòng đôi</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/19.jpg">
+            <img style="height: 100%; width: 100%" src="/img/19.jpg">
             <span>Dùng bữa</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/22.jpg">
+            <img style="height: 100%; width: 100%" src="/img/22.jpg">
             <span>Hồ bơi</span>
         </div>
     </div>
-    <div class="container">
+    <div class="container-full">
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/8.jpg">
+            <img style="height: 100%; width: 100%" src="/img/8.jpg">
             <span>Phòng đơn</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/6.jpg">
+            <img style="height: 100%; width: 100%" src="/img/6.jpg">
             <span>Phòng đôi</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/5.jpg">
+            <img style="height: 100%; width: 100%" src="/img/5.jpg">
             <span>Dùng bữa</span>
         </div>
         <div class="box">
-            <img style="height: 100%; width: 100%" src="img_/21.jpg">
+            <img style="height: 100%; width: 100%" src="/img/21.jpg">
             <span>Hồ bơi</span>
         </div>
     </div>
 
 
 
-    <script src="js_/gallery.js"></script>
+    <!-- Menu Footer -->
+    <%- include('include/menu_footer') %>
+        <!-- Footer -->
+        <%- include('include/footer') %>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script type="text/javascript" src="js/common.js"></script>
+
+            <script src="js/gallery.js"></script>
+
 </body>
 
 </html>
